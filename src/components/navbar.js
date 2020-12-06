@@ -1,0 +1,73 @@
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import Logo from '../assets/logo.png';
+
+const navbar = () => {
+
+
+    const Wrapper = styled.div`
+        position: fixed;
+        width: 100%;
+        height: 4rem;
+        background-color: #ffffff;
+        text-align: center;
+        @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+        font-family: 'Jeju Myeongjo';
+    `
+
+    const Logoimg = styled.img`
+        width: auto;
+        height: 70%;
+        margin-top: 0.7rem;
+        margin-right: 3rem;
+        vertical-align: middle;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+    `
+
+    const StyledLink = styled(Link)`
+        text-decoration: none;
+        color: #afafaf;
+        transition: all 0.2s;
+        padding-bottom: 10px;
+        border-bottom: 0.2rem solid #00000000;
+        margin: 1rem;
+         &:hover, &:active{
+           color: #000000;
+           border-bottom: 0.2rem solid #000000;
+        }
+    `
+
+    const TextEl = styled.span`
+        position: relative;
+        top: 0.3rem;
+    `
+    const ScrollToTop = () => {
+        window.scrollTo(0, 0);
+    }
+
+
+    return (
+        <Wrapper>
+            <Link to="/">
+                <span onClick={ScrollToTop}>
+                    <Logoimg src={Logo} alt="" />
+                </span>
+            </Link>
+
+            <StyledLink to="/ABOUT">
+                <TextEl>About</TextEl>
+            </StyledLink>
+
+            <StyledLink to="/">
+                <TextEl>Design</TextEl>
+            </StyledLink>
+
+            <StyledLink to="/" >
+                <TextEl>Project</TextEl>
+            </StyledLink>
+        </Wrapper>
+    )
+}
+export default navbar;
