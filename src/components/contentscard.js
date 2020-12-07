@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ContentsCard = ({ img, desc }) => (
+const ContentsCard = ({ img, desc, title }) => (
   <Container>
     <TopBorder className="rowline" />
     <BottomBorder className="rowline" />
     <LeftBorder className="colline" />
     <RightBorder className="colline" />
     <ImageWrapper>
-      <Image src={img} />
+      <Image src={img} title={title} />
     </ImageWrapper>
     <DescWrapper className="descwrapper">
       <Desc>

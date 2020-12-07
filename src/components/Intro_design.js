@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import ContentsList from './contentslist';
+import ContentsList from './d_contentslist';
 
 const IntroDesign = () => {
 

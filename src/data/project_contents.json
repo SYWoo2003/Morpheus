@@ -1,0 +1,34 @@
+[
+    {
+        "img": "inu_wish",
+        "desc": "2020 INU 위시리스트_v1"
+    },
+    {
+        "img": "inu_bucket",
+        "desc": "2020 INU 버킷리스트_v2"
+    },
+    {
+        "img": "inu_web",
+        "desc": "2020 INU 웹 페이지"
+    },
+    {
+        "img": "poempage",
+        "desc": "2-5 국어 시창작 사이트"
+    },
+    {
+        "img": "flo",
+        "desc": "FLO 클론코딩"
+    },
+    {
+        "img": "kiosk",
+        "desc": "키오스크 시뮬레이터"
+    },
+    {
+        "img": "hanzo",
+        "desc": "한국사 공부 사이트"
+    },
+    {
+        "img": "dailytime",
+        "desc": "DailyTime 개발"
+    }
+]

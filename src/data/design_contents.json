@@ -4,11 +4,55 @@
         "desc": "Faded"
     },
     {
-        "img": "cbox",
+        "img": "foolbox",
         "desc": "바보상자"
     },
     {
         "img": "benedu",
         "desc": "베네듀 리디자인"
+    },
+    {
+        "img": "goodwill",
+        "desc": "Goodwill 포스터 제작"
+    },
+    {
+        "img": "delta",
+        "desc": "델타 포스터 제작"
+    },
+    {
+        "img": "inu",
+        "desc": "이누 포스터 제작"
+    },
+    {
+        "img": "assertive",
+        "desc": "어썰티브 포스터 제작"
+    },
+    {
+        "img": "hackathoner",
+        "desc": "Hackathoner 포스터 제작"
+    },
+    {
+        "img": "leastimer",
+        "desc": "Leastimer 앱 디자인"
+    },
+    {
+        "img": "dimigoin",
+        "desc": "디미고인 디자인팀 활동"
+    },
+    {
+        "img": "gretel",
+        "desc": "Gretel 앱 디자인"
+    },
+    {
+        "img": "ithaca",
+        "desc": "이타카 앱 디자인"
+    },
+    {
+        "img": "allday",
+        "desc": "Allday 앱 디자인"
+    },
+    {
+        "img": "pin",
+        "desc": "Pin 앱 디자인"
     }
 ]

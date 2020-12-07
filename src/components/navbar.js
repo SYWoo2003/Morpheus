@@ -13,14 +13,14 @@ const navbar = () => {
         background-color: #ffffff;
         text-align: center;
         @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
-        font-family: 'Jeju Myeongjo';
+        font-family: 'JejuMyeongjo';
+        z-index: 100;
     `
 
     const Logoimg = styled.img`
         width: auto;
         height: 70%;
         margin-top: 0.7rem;
-        margin-right: 3rem;
         vertical-align: middle;
         -webkit-user-drag: none;
         -webkit-user-select: none;
@@ -47,6 +47,17 @@ const navbar = () => {
         window.scrollTo(0, 0);
     }
 
+    const ScrollToDesign = () => {
+        window.scrollTo(0, 920);
+    }
+
+    const ScrollToProject = () => {
+        window.scrollTo(0, 2100);
+    }
+
+    const Margin = styled.span`
+        margin: 1rem;
+    `
 
     return (
         <Wrapper>
@@ -55,18 +66,22 @@ const navbar = () => {
                     <Logoimg src={Logo} alt="" />
                 </span>
             </Link>
-
+            <Margin />
             <StyledLink to="/ABOUT">
                 <TextEl>About</TextEl>
             </StyledLink>
 
-            <StyledLink to="/">
+            <StyledLink to="/" onClick={ScrollToDesign}>
                 <TextEl>Design</TextEl>
             </StyledLink>
 
-            <StyledLink to="/" >
+            <StyledLink to="/" onClick={ScrollToProject}>
                 <TextEl>Project</TextEl>
             </StyledLink>
+
+            {/* <StyledLink to="/" onClick={ScrollToProject}>
+                <TextEl>Contact</TextEl>
+            </StyledLink> */}
         </Wrapper>
     )
 }
